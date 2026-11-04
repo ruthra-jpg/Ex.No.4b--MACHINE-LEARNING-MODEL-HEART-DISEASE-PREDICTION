@@ -154,7 +154,17 @@ The models can be evaluated using:
 •	Recall 
 •	F1-score 
 •	Confusion Matrix 
+<img width="643" height="460" alt="image" src="https://github.com/user-attachments/assets/058c7c77-09a1-4078-9561-a5b10af24d3e" />
+
 ## Code
+````
+print(name)
+print("Accuracy :", accuracy_score(y_test, prediction))
+print("Precision:", precision_score(y_test, prediction))
+print("Recall   :", recall_score(y_test, prediction))
+print("F1 Score :", f1_score(y_test, prediction))
+print()
+```
 from sklearn.metrics import (
     accuracy_score,
     precision_score,
